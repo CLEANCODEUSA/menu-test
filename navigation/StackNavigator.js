@@ -23,6 +23,4 @@ const MainStackNavigator = () => {
   )
 }
 
-const styles = StyleSheet.create({})
-
 export { MainStackNavigator }
