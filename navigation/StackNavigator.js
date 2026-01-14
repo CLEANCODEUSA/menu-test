@@ -24,4 +24,12 @@ const MainStackNavigator = () => {
   )
 }
 
-export { MainStackNavigator }
+const ContactStackNavigator = () => {
+  return (
+    <Stack.Navigator screenOptions={screenOptionsStyle}>
+      <Stack.Screen name='Contact' component={Contact} />
+    </Stack.Navigator>
+  )
+}
+
+export { MainStackNavigator, ContactStackNavigator }
