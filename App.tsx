@@ -1,7 +1,7 @@
-import React from 'react'
-import { NavigationContainer } from '@react-navigation/native'
+import React from "react";
+import { NavigationContainer } from "@react-navigation/native";
 
-import { BottomTabNavigator } from './navigation/TabNavigator'
+import BottomTabNavigator from "./navigation/TabNavigator";
 
 const App = () => {
   return (
@@ -10,5 +10,4 @@ const App = () => {
     </NavigationContainer>
   );
 }
-
 export default App
