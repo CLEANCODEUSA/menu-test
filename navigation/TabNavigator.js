@@ -1,18 +1,17 @@
-import React from 'react'
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
+import React from "react";
+import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
-import { MainStackNavigator, ContactStackNavigator } from './StackNavigator'
+import { MainStackNavigator, ContactStackNavigator } from "./StackNavigator";
 
-const Tab = createBottomTabNavigator()
+const Tab = createBottomTabNavigator();
 
 const BottomTabNavigator = () => {
   return (
-    <Tab.TabNavigator>
-      <Tab.Screen name='Home' component={MainStackNavigator} />
-      <Tab.Screen name='Contact' component={ContactStackNavigator} />
-    </Tab.TabNavigator>
-  )
-}
+    <Tab.Navigator>
+      <Tab.Screen name="Home" component={MainStackNavigator} />
+      <Tab.Screen name="Contact" component={ContactStackNavigator} />
+    </Tab.Navigator>
+  );
+};
 
-export default BottomTabNavigator
-
+export default BottomTabNavigator;
