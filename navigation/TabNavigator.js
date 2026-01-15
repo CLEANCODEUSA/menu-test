@@ -1,7 +1,7 @@
 import React from 'react'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 
-import { MainStacknavigator, ContactStackNavigator } from './StackNavigator'
+import { MainStackNavigator, ContactStackNavigator } from './StackNavigator'
 
 const Tab = createBottomTabNavigator()
 
@@ -16,4 +16,3 @@ const BottomTabNavigator = () => {
 
 export default BottomTabNavigator
 
-const styles = StyleSheet.create({})
